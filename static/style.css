@@ -1,0 +1,146 @@
+body {
+      background-color: #eee;
+      font-family: "Roboto Mono", monospace;
+    }
+
+/*
+    path.spiral {
+      fill: none;
+      stroke: #ee8d18;
+      stroke-width: 0px;
+    }
+*/
+
+    .main {
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .btn {
+      font-family: "Roboto Mono", monospace;
+      padding: 5px 40px !important;
+      margin-top: 24px;
+      font-weight: 500;
+      color: #000000 !important;
+      font-size: 16px;
+      background: none;
+      border-radius: 40px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    .btn:hover {
+      color: #ffffff !important;
+      background: #5fd59c;
+    }
+
+    .btn-selected {
+      color: #ffffff !important;
+      background: #5fd59c;
+    }
+
+    .tooltip {
+      font-size: 14px;
+      width: 120px;
+      height: auto;
+      position: absolute;
+      text-align: left;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 5px;
+/*      background-color: #bcccdc;*/
+      background-color: #fafafa;
+      color: #000029;
+      font-family: "Roboto Mono", monospace;
+    }
+
+    #main2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+/*      color: #203367;*/
+     color: #000;
+    }
+
+    #main3 h3,
+    #main2 h3 {
+      font-size: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    #main3 p,
+    #main2 p {
+      font-size: 14px;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 30px;
+    }
+
+    #main2 textarea {
+      width: 600px;
+      margin: 0;
+      padding: 20px;
+      background-color: #fafafa;
+      border: 8px solid #ccc;
+      color: #323232;
+      line-height: 1.4;
+      font-size: 14px;
+      margin: 0 auto;
+      min-height: 400px;
+    }
+
+    #main3 button,
+    #main2 button {
+      height: 40px;
+      width: 170px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      background-color: #5fd59c;
+      border-radius: 100px;
+      line-height: 40px;
+      border: none;
+      outline: none;
+      margin: 0 auto;
+      margin-top: 30px;
+      box-shadow: 0 0 10px rgba(83, 197, 112, 0.2);
+    }
+
+    #main3 {
+      display: none;
+    }
+
+    #main3 table {
+      width: 600px;
+      margin: 0;
+      padding: 20px;
+/*      background-color: #efefef;*/
+        background-color: #fafafa;
+      border: 8px solid #ccc;
+/*      color: #203367;*/
+      color:#323232;
+      line-height: 1.1;
+      font-size: 14px;
+      margin: 0 auto;
+      min-height: 400px;
+    }
+
+    .g-bubble {
+/*      background-color: #bcccdc;*/
+/*      color: #000029;*/
+      font-family: "Roboto Mono", monospace;
+/*          color: white;*/
+/*
+  -webkit-text-fill-color: #424242; 
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: pink;
+*/
+    }
+
+    .leaf-text {
+/*
+      white-space: pre-wrap;
+      color: #fff;
+*/
+    } 

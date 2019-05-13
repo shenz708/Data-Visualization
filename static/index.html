@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SONO</title>
+  <link rel="stylesheet" type="text/css" href="style.css">    
+</head>
+
+<body>
+    
+  <div id="main" style="display: none" class="main">
+    <div class="btns-box">
+      <a class="btn btn-selected btn-rand">RAND</a>
+      <a class="btn btn-sort">SORT</a>
+    </div>
+    <div id="chart"></div>
+  </div>
+    
+  <div id="main2" class="main">
+    <h1 style = "font-family: 'Josefin Sans', sans-serif; font-weight: 500; font-size: 36px; color:black;">SONO</h1>
+    <p style = "font-family: 'Roboto Mono light', monospace; font-weight: 100;font-size: 16px; color:dimgrey;"> Natural Language Understanding</p>
+    <textarea id="text"> </textarea>
+    <button id="analyze" style = "font-family: 'Roboto Mono'">ANALYZE</button>
+  </div>
+  
+  <div id="main3" class="main">
+    <h1 style = "font-family: 'Josefin Sans', sans-serif; font-weight: 500; font-size: 36px; color:black;">SONO</h1>
+    <p style = "font-family: 'Roboto Mono light', monospace; font-weight: 100;font-size: 16px; color:dimgrey;"> Natural Language Understanding</p>
+    <table id="table"></table>
+    <button id="visu" style = "font-family: 'Roboto Mono'">VISUALIZE</button>
+  </div>
+    
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <script src="d3/d3.v5.min.js"></script>
+  <script src="d3-circle.js"></script>
+
+</body>
+
+</html>
